@@ -3,6 +3,9 @@
     --paragraph-color:  #0072bb;
     --text-color: #ffffff;
     --header-text-color: #d9dcd6;
+    --aside-color:  #2589bd;
+    --font-header-footer: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --font-sections: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 * {
     box-sizing: border-box;
@@ -16,7 +19,7 @@ body {
 
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--font-family-header);
     background-color: var(--background-color);
     color: var(--text-color);
 }
@@ -34,7 +37,7 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-family-sections);
     font-size: 20px;
 }
 
@@ -85,8 +88,8 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    font-family: var(--font-family-sections);
+    background-color: var(--aside-color);
 }
 
 .benefit-lead {
@@ -145,7 +148,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-family-sections);
     background-color: var(--paragraph-color);
     color: var(--text-color);
 }
@@ -154,7 +157,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-family-sections);
     background-color: var(--paragraph-color);
     color: var(--text-color);
 }
@@ -163,7 +166,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-family-sections);
     background-color: var(--paragraph-color);
     color: var(--text-color);
 }
@@ -198,7 +201,7 @@ p {
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--font-header-footer);
     text-align: center;
 }
 
