@@ -6,6 +6,7 @@ This project was meant to provide a codebase that follows accessibility standard
 ### Table of Contents
  
  - Page Preview
+ - Page link 
  - Site link
  - Technologies Used
  - Features
@@ -15,6 +16,8 @@ This project was meant to provide a codebase that follows accessibility standard
 ## Page Preview
 ![Horiseon_page_screenshot](./assets/images/Horiseon%20page.png)  
 
+## Page Link
+https://oronafrankie87.github.io/Horiseon-Marketing-Accessible-and-Inclusive-Solutions/
 
  ## Technologies Used
 
